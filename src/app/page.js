@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Posts from "../app/posts/[id]/page"
+import Posts from "./profile/[name]/[id]/[email]/page"
 import { useState } from "react";
 
 export default function Home() {
