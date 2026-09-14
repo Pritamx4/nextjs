@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Posts from "./profile/[name]/[id]/[email]/page"
 import { useState } from "react";
+import Users from "./user/page";
 
 export default function Home() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ export default function Home() {
       <hr />
       <p className="text-5xl">{like ? "❤️" : "💔"}</p>
       <button onClick={() => setLike(!like)}className="h-12 w-32 bg-green-500 text-2xl text-white m-5">Toggle Like</button>
+      <Users />
     </div>
   );
 }

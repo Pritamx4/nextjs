@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-
+9552
 const  revalidate = 20;
 
 const Posts = () => {
