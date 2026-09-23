@@ -72,5 +72,6 @@ export async function DELETE(request) {
   users = users.filter((user) => user.id !== id);
   return Response.json({
     message: "User deleted successfully",
+    data: users,
   });
 }
