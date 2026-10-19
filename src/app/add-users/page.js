@@ -8,7 +8,7 @@ const AddUsers = () => {
             method: "POST",
             body: JSON.stringify({
                 id: 3,
-                name: "Faltu Anshul",
+                name: "Pritam Singh",
             }),
         });
         const data = await response.json();
