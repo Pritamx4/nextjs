@@ -23,8 +23,7 @@ const Posts = () => {
             <li key={post.id}>
                 <h1>post no.{post.id}</h1>
                 <h2>{post.title}</h2>
-                <p>{post.body}</p>
-            </li>
+                <p>{post.body}</p>            </li>
         ))}
     </ul>
     </div>
